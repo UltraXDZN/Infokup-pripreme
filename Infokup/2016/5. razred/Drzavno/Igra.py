@@ -1,15 +1,21 @@
 duljina_niza_znamenaka = int(input())
-pocetni_niz = [int(i) for i in input().split()]
-mirkovo_zaokruzivanje = [int(i) for i in input().split()]
+pocetni_niz = input().replace(" ", "")
+mirkovo_zaokruzivanje = input().replace(" ", "")
 
 zaokruzeni_brojevi = []
-parni = [int(i) for i in range(len(pocetni_niz)) if i % 2 == 0]
-neparni = [int(i) for i in range(len(pocetni_niz)) if i % 2 != 0]
 
-for i in range(len(mirkovo_zaokruzivanje)):
-    if mirkovo_zaokruzivanje[i] == 1:
+for i in range(len(pocetni_niz)):
+    if mirkovo_zaokruzivanje[i] == "1":
         zaokruzeni_brojevi.append(i)
 
-print(zaokruzeni_brojevi)
-print(parni)
-print(neparni)
+slavkovo_zaokruzivanje = [0] * duljina_niza_znamenaka
+trenutni_broj = ""
+for i in range(len(pocetni_niz)-1, -1, -1):
+    print(trenutni_broj)
+    trenutni_broj += pocetni_niz[i]
+    if int(pocetni_niz[i]) % 2 != 0 and i not in zaokruzeni_brojevi and i+1 not in zaokruzeni_brojevi and int(trenutni_broj) % 2 != 0:
+        slavkovo_zaokruzivanje[i] = 1
+    else:
+        trenutni_broj = ""
+
+print(slavkovo_zaokruzivanje)
