@@ -1,21 +1,26 @@
 duljina_niza_znamenaka = int(input())
-pocetni_niz = input().replace(" ", "")
-mirkovo_zaokruzivanje = input().replace(" ", "")
-
-zaokruzeni_brojevi = []
-
-for i in range(len(pocetni_niz)):
-    if mirkovo_zaokruzivanje[i] == "1":
-        zaokruzeni_brojevi.append(i)
-
+pocetni_niz = [int(i) for i in input().split()]
+mirkovo_zaokruzivanje = [int(i) for i in input().split()]
 slavkovo_zaokruzivanje = [0] * duljina_niza_znamenaka
-trenutni_broj = ""
-for i in range(len(pocetni_niz)-1, -1, -1):
-    trenutni_broj += pocetni_niz[i]
-    if int(pocetni_niz[i]) % 2 != 0 and i not in zaokruzeni_brojevi and i+1 not in zaokruzeni_brojevi and int(trenutni_broj) % 2 != 0:
-        slavkovo_zaokruzivanje[i] = 1
-    else:
-        trenutni_broj = ""
 
-print(slavkovo_zaokruzivanje)
-#got to finish 2/3 done
+for i in reversed(range(duljina_niza_znamenaka)):
+    if mirkovo_zaokruzivanje[i] and pocetni_niz[i] % 2 == 0:
+        j = i + 1
+        while j < duljina_niza_znamenaka and not mirkovo_zaokruzivanje[j] and pocetni_niz[j] % 2 == 0:
+            slavkovo_zaokruzivanje[j] = 1
+            j += 1
+        if j < duljina_niza_znamenaka and not mirkovo_zaokruzivanje[j]:
+            slavkovo_zaokruzivanje[j] = 1
+
+    if not mirkovo_zaokruzivanje[i] and pocetni_niz[i] % 2 != 0:
+        j = i + 1
+        while j < duljina_niza_znamenaka and pocetni_niz[j] % 2 != 0:
+            j += 1
+        if j < duljina_niza_znamenaka and pocetni_niz[j + 1] % 2 != 0:
+            slavkovo_zaokruzivanje[j - 1] = 1
+
+for i in range(duljina_niza_znamenaka):
+    if i == 0 and not mirkovo_zaokruzivanje[i] and pocetni_niz[i] % 2 == 1:
+        slavkovo_zaokruzivanje[i] = 1
+
+print(*slavkovo_zaokruzivanje, sep=" ")
