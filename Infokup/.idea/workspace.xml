@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f7e9056-a4f9-43f4-a966-e1a11af6fcb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2017/5. razred/Zupanijsko/Istok.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/5. razred/Zupanijsko/Sto.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,28 +44,7 @@
       <recent name="D:\JURAJ\Infokup pripreme 2021\2015\5. razred\Skolsko" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Istok">
-    <configuration name="Igra" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Infokup pripreme 2021" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2016/5. razred/Drzavno" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2016/5. razred/Drzavno/Igra.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Sto">
     <configuration name="Istok" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Infokup pripreme 2021" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,6 +108,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Sto" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Infokup pripreme 2021" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2017/5. razred/Zupanijsko" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2017/5. razred/Zupanijsko/Sto.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Vezice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Infokup pripreme 2021" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,19 +173,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.mladi" />
-      <item itemvalue="Python.Igra" />
       <item itemvalue="Python.Jules" />
       <item itemvalue="Python.Mogucnost" />
       <item itemvalue="Python.Vezice" />
       <item itemvalue="Python.Istok" />
+      <item itemvalue="Python.Sto" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Sto" />
         <item itemvalue="Python.Istok" />
         <item itemvalue="Python.Jules" />
         <item itemvalue="Python.Mogucnost" />
         <item itemvalue="Python.Vezice" />
-        <item itemvalue="Python.Igra" />
       </list>
     </recent_temporary>
   </component>
