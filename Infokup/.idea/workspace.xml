@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f7e9056-a4f9-43f4-a966-e1a11af6fcb0" name="Default Changelist" comment="" />
+    <list default="true" id="5f7e9056-a4f9-43f4-a966-e1a11af6fcb0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2017/5. razred/Zupanijsko/Trek.py" beforeDir="false" afterPath="$PROJECT_DIR$/2017/5. razred/Zupanijsko/Trek.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -169,12 +172,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.mladi" />
+      <item itemvalue="Python.Istok" />
       <item itemvalue="Python.Jules" />
       <item itemvalue="Python.Mogucnost" />
-      <item itemvalue="Python.Istok" />
       <item itemvalue="Python.Sto" />
       <item itemvalue="Python.Trek" />
+      <item itemvalue="Python.mladi" />
     </list>
     <recent_temporary>
       <list>
