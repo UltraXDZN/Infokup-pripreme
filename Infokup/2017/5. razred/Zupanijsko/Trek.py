@@ -1,38 +1,41 @@
 pocetni_broj = int(input())
 zavrsni_broj = int(input())
 
-
-class Graph():
-    def __init__(self, lista_nodova=[]):
-        self.lista_nodova = lista_nodova
-
-
-class Node():
-    edge = []
-
-    def __init__(self, broj):
-        self.broj = broj
-
-
-class Edge():
-    def __init__(self, node_prvi, node_drugi, udaljenost):
-        self.node_prvi = node_prvi
-        self.node_drugi = node_drugi
-        self.udaljenost = udaljenost
-
-    def reverse(self):
-        self.node_prvi, self.node_drugi = self.node_drugi, self.node_prvi
-
-
-nodovi = [ Node(1), Node(2), Node(3), Node(4), Node(5), Node(6), Node(7), Node(8), Node(9), Node(10), Node(11), Node(12), Node(13), Node(14) ]
 edgeovi = []
+for i in range(14):
+    row = []
+    for j in range(14):
+        row.append(0)
+    edgeovi.append(row)
+
+# print(len(edgeovi))
+for i in range(7):
+    edgeovi[i][i+7] = 20
+    edgeovi[i+7][i] = 20
 
 for i in range(7):
-    edgeovi.append(Edge(nodovi[i], nodovi[i+1], 10))
+    edgeovi[i % 7][(i+1) % 7] = 10
+    edgeovi[(i+1) % 7][i % 7] = 10
 
-for i in range(8, 14):
-    edgeovi.append(Edge(nodovi[i], nodovi[i+1], 30))
+for i in range(7):
+    edgeovi[i % 7 + 7][(i+1) % 7 + 7] = 30
+    edgeovi[(i+1) % 7 + 7][i % 7 + 7] = 30
 
-graf = Graph()
+print('\n'.join([''.join(['{:4}'.format(item) for item in row]) for row in edgeovi]))
 
-print(brojac)
+brojac_prvi = []
+brojac_drugi = []
+for i in range(len(edgeovi)):
+    if (edgeovi[pocetni_broj][i] != 0):
+        brojac_prvi.append(edgeovi[pocetni_broj][i])
+
+
+for i in range(len(edgeovi)):
+    if(edgeovi[zavrsni_broj-1][i] != 0):
+        brojac_drugi.append(edgeovi[zavrsni_broj-1][i])
+
+# res = []
+# for i in range(14):
+#     if brojac[i] != 0:
+#         res.append(brojac[i])
+print(brojac_prvi[1] + brojac_drugi[1])
