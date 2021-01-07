@@ -11,6 +11,8 @@ def pronadji_najkraci_put(pocetni_broj, zavrsni_broj, graf):
             if rekuzrzivna_duljina != -1:
                 duljina_puta.append(rekuzrzivna_duljina)
 
+    if len(duljina_puta) == 0:
+        return -1
     return min(duljina_puta)
 
 def pronadji_put(trenutni_broj, zavrsni_broj, posjeceni_brojevi, graf, pozicija_na_grafu):
@@ -18,12 +20,14 @@ def pronadji_put(trenutni_broj, zavrsni_broj, posjeceni_brojevi, graf, pozicija_
         return pozicija_na_grafu
 
     rekurzivne_duljine = []
-    for i in range(13):
+    posjeceni_brojevi.append(trenutni_broj)
+    for i in range(14):
         if graf[trenutni_broj][i] != 0:
             if i not in posjeceni_brojevi:
                 rekuzrzivna_duljina = pronadji_put(i, zavrsni_broj, graf, posjeceni_brojevi, graf[trenutni_broj][i] + pozicija_na_grafu)
                 rekurzivne_duljine.append(rekuzrzivna_duljina)
-    if ()
+    if len(rekurzivne_duljine) == 0:
+        return -1
     return min(rekurzivne_duljine)
 
 
