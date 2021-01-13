@@ -9,12 +9,13 @@ rekordi = {
     72.28: "WR"
 }
 
-for i in range(broj_bacanja - 1):
-    for k, v in rekordi.items():
-        print(bacanja[i])
-        if bacanja[i] >= k:
+for i in range(broj_bacanja):
+    jeIspisao = False
+    for k, v in reversed(rekordi.items()):
+        if k < bacanja[i]:
             print(rekordi[k])
+            jeIspisao = True
             break
-        else:
-            print(bacanja[i])
-            break
+
+    if not jeIspisao:
+        print(bacanja[i])
