@@ -8,11 +8,16 @@ pocetno_vrijeme = vrijeme[0]
 vrijeme_na_satu = 0
 
 for i in range(0, broj_nestanaka_struje, 2):
-    if (vrijeme[i][1] > vrijeme[i-1][1]):
+    if vrijeme[i][1] > vrijeme[i - 1][1]:
         vrijeme_na_satu += 60 - vrijeme[i][1]
     vrijeme_na_satu += vrijeme[i][1] - vrijeme[i-1][1]
-    if (i+1 <= len(vrijeme)):
-        pocetno_vrijeme[1] += vrijeme[i+1][1]
+    if i > 0:
+        pocetno_vrijeme[1] += vrijeme[i-1][1] + vrijeme[i][1]
+
 
 print(abs(vrijeme_na_satu))
 print(*pocetno_vrijeme, sep=" ")
+
+#zbroj = vrijeme[i - 1][1] + vrijeme[i][1]
+#pocetno_vrijeme[1] += zbroj
+#break
