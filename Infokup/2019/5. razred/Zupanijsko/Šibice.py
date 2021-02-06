@@ -27,4 +27,4 @@ for i in range(broj):
 
 
 print(brojac_sibica)
-print(glavni_brojac)
+print(glavni_brojac+6)
