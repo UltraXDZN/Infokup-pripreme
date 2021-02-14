@@ -14,6 +14,10 @@ for i in reversed(range(8)):
             if ruka[i][1] == ruka[j][1] == ruka[k][1]:
                 if vrijendosti.index(ruka[k][0]) > vrijendosti.index(ruka[j][0]) > vrijendosti.index(ruka[i][0]):
                     rjesenje.append(["1", ruka[i][1], ruka[i][0]])
+            for l in reversed(range(8)):
+                if ruka[i][0] == ruka[j][0] == ruka[k][0] == ruka[l][0]:
+                    if ruka[i][1] != ruka[j][1] != ruka[k][1] != ruka[l][1]:
+                        rjesenje.append(["2", ruka[i][0]])
 
 myFinallist = []
 for i in rjesenje:
