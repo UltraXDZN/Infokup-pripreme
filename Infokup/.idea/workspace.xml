@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f7e9056-a4f9-43f4-a966-e1a11af6fcb0" name="Default Changelist" comment="Rijesen zadatak Belot">
-      <change afterPath="$PROJECT_DIR$/2015/6. razred/Skolsko/Zabe.py" afterDir="false" />
+    <list default="true" id="5f7e9056-a4f9-43f4-a966-e1a11af6fcb0" name="Default Changelist" comment="Rijesen zadatak Zabe">
+      <change afterPath="$PROJECT_DIR$/2020/5. razred/Drzavno/Selotejpet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -45,7 +45,7 @@
       <recent name="D:\JURAJ\Infokup pripreme 2021\2015\5. razred\Skolsko" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Zabe">
+  <component name="RunManager" selected="Python.Selotejpet">
     <configuration name="Belot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Infokup pripreme 2021" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,7 +109,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Trek" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Selotejpet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Infokup pripreme 2021" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -117,11 +117,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2017/5. razred/Zupanijsko" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2020/5. razred/Drzavno" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2017/5. razred/Zupanijsko/Trek.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2020/5. razred/Drzavno/Selotejpet.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,19 +174,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.mladi" />
-      <item itemvalue="Python.Trek" />
       <item itemvalue="Python.Kevin" />
       <item itemvalue="Python.London" />
       <item itemvalue="Python.Belot" />
       <item itemvalue="Python.Zabe" />
+      <item itemvalue="Python.Selotejpet" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Selotejpet" />
         <item itemvalue="Python.Zabe" />
         <item itemvalue="Python.Belot" />
         <item itemvalue="Python.London" />
         <item itemvalue="Python.Kevin" />
-        <item itemvalue="Python.Trek" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613429884679</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Rijesen zadatak Zabe">
+      <created>1613512250626</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613512250626</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,6 +249,7 @@
     <MESSAGE value="Rijesen zadatak London" />
     <MESSAGE value="Update Belot" />
     <MESSAGE value="Rijesen zadatak Belot" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rijesen zadatak Belot" />
+    <MESSAGE value="Rijesen zadatak Zabe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rijesen zadatak Zabe" />
   </component>
 </project>
