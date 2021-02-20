@@ -14,14 +14,26 @@ for i in range(len(komadi_limiti)):
     for num in temp_komad:
         daska[num] += str(i+1)
 
-temp_len = []
-for komad in daska:
-    temp_len.append(len(komad))
-print(max(temp_len))
+print(daska)
+# print(komadi_limiti)
+print(max([len(komad) for komad in daska]))
 
 # prvi_komad = 0
 # for komad in daska:
 #     if komad != "":
 #         print(komad[0])
 #         break
+
+found = 0
+for i in range(len(daska)):
+    if str(daska[i]) in daska:
+        if daska[i] == "":
+            continue
+        temp = daska[i].split()
+        found = temp[0]
+        temp[0] = ""
+        daska[i] = temp
+    # print(daska)
+    print(found)
+    break
 
