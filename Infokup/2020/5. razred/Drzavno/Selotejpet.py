@@ -36,4 +36,5 @@ for i in range(len(daska)):
     # print(daska)
     print(found)
     break
+#2 broj traži prvo micanje
 
