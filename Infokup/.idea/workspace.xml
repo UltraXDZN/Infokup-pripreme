@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f7e9056-a4f9-43f4-a966-e1a11af6fcb0" name="Default Changelist" comment="Update Selotejpet (prvi dio radi)" />
+    <list default="true" id="5f7e9056-a4f9-43f4-a966-e1a11af6fcb0" name="Default Changelist" comment="Update Selotejpet (prvi dio radi)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -169,12 +171,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Belot" />
+      <item itemvalue="Python.mladi" />
       <item itemvalue="Python.Kevin" />
       <item itemvalue="Python.London" />
-      <item itemvalue="Python.Selotejpet" />
+      <item itemvalue="Python.Belot" />
       <item itemvalue="Python.Zabe" />
-      <item itemvalue="Python.mladi" />
+      <item itemvalue="Python.Selotejpet" />
     </list>
     <recent_temporary>
       <list>
@@ -247,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613860065508</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Update Selotejpet (prvi dio radi)">
+      <created>1613947677303</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1613947677303</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
