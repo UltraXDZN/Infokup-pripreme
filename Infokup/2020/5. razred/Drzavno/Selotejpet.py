@@ -14,27 +14,45 @@ for i in range(len(komadi_limiti)):
     for num in temp_komad:
         daska[num] += str(i+1)
 
-print(daska)
+# print(daska)
 # print(komadi_limiti)
-print(max([len(komad) for komad in daska]))
+duljine_brojeva = [len(komad) for komad in daska]
+# print(duljine_brojeva)
+print(max(duljine_brojeva))
 
-# prvi_komad = 0
-# for komad in daska:
-#     if komad != "":
-#         print(komad[0])
-#         break
+rjesenje = 0
+trigger = False
+for duljina in duljine_brojeva:
+    if not trigger:
+        for veca_duljina in duljine_brojeva:
+            if (veca_duljina > duljina):
+                rjesenje = duljina
+                trigger = True
+                break
 
-found = 0
-for i in range(len(daska)):
-    if str(daska[i]) in daska:
-        if daska[i] == "":
-            continue
-        temp = daska[i].split()
-        found = temp[0]
-        temp[0] = ""
-        daska[i] = temp
-    # print(daska)
-    print(found)
-    break
-#2 broj traži prvo micanje
+if duljina == veca_duljina:
+    print(duljina)
+else:
+    print(rjesenje)
+
+
+# # prvi_komad = 0
+# # for komad in daska:
+# #     if komad != "":
+# #         print(komad[0])
+# #         break
+#
+# found = 0
+# for i in range(len(daska)):
+#     if str(daska[i]) in daska:
+#         if daska[i] == "":
+#             continue
+#         temp = daska[i].split()
+#         found = temp[0]
+#         temp[0] = ""
+#         daska[i] = temp
+#     # print(daska)
+#     print(found)
+#     break
+# #2 broj traži prvo micanje
 
