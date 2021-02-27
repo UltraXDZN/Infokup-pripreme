@@ -26,9 +26,11 @@ for duljina in duljine_brojeva:
     if not trigger:
         for veca_duljina in duljine_brojeva:
             if (veca_duljina > duljina):
-                rjesenje = duljina
+                rjesenje = veca_duljina
                 trigger = True
                 break
+    else:
+        break
 
 if duljina == veca_duljina:
     print(duljina)
