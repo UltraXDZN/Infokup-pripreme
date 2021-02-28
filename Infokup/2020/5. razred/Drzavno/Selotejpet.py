@@ -1,60 +1,32 @@
 broj_komada = int(input())
 podjela = int(input())
 
-daska = [""] * podjela
-
 komadi_limiti = []
 for i in range(broj_komada):
     temp_unos = [int(num) for num in input().split()]
     komadi_limiti.append(temp_unos)
 
-for i in range(len(komadi_limiti)):
-    temp_komad = komadi_limiti[i]
-    temp_komad = [num for num in range(temp_komad[0]-1, temp_komad[-1])]
-    for num in temp_komad:
-        daska[num] += str(i+1)
+daska = [""] * podjela
 
-# print(daska)
-# print(komadi_limiti)
-duljine_brojeva = [len(komad) for komad in daska]
-# print(duljine_brojeva)
-print(max(duljine_brojeva))
+for broj, polozaj in enumerate(komadi_limiti, 1):
+    oznaka = f'#{broj}'
+    pocetak = polozaj[0] - 1
+    duljina = polozaj[1] - pocetak
+    for i in range(duljina):
+        daska[pocetak + i] += oznaka
 
-rjesenje = 0
-trigger = False
-for duljina in duljine_brojeva:
-    if not trigger:
-        for veca_duljina in duljine_brojeva:
-            if (veca_duljina > duljina):
-                rjesenje = veca_duljina
-                trigger = True
-                break
-    else:
-        break
+daska_bez_hasha = [s.replace("#", "") for s in daska if "#" in s]
+max_duljina = max(len(ozn) for ozn in daska_bez_hasha)
+print(max_duljina)
 
-if duljina == veca_duljina:
-    print(duljina)
-else:
-    print(rjesenje)
+najmanja_oznaka = broj_komada
+for i in range(broj_komada - 1, 0, -1):
+    l = []
+    oznaka = f'#{i}'
+    for ozn in daska:
+        if oznaka in ozn:
+            l.append(ozn)
+    if all([o.endswith(oznaka) for o in l]):
+        najmanja_oznaka = int(oznaka[-1])
 
-
-# # prvi_komad = 0
-# # for komad in daska:
-# #     if komad != "":
-# #         print(komad[0])
-# #         break
-#
-# found = 0
-# for i in range(len(daska)):
-#     if str(daska[i]) in daska:
-#         if daska[i] == "":
-#             continue
-#         temp = daska[i].split()
-#         found = temp[0]
-#         temp[0] = ""
-#         daska[i] = temp
-#     # print(daska)
-#     print(found)
-#     break
-# #2 broj traži prvo micanje
-
+print(najmanja_oznaka)
