@@ -1,0 +1,1 @@
+broj_bacanja_kocke = int(input())
