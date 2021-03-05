@@ -1,0 +1,1 @@
+odabrani_broj = int(input())
