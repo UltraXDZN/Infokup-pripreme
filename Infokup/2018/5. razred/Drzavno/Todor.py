@@ -10,7 +10,7 @@ def pronadji_put(graf, pocetak, kraj, put=[]):
         return None
     for node in graf[pocetak]:
         if node not in put:
-            print(graf[pocetak][graf[pocetak].index(node)])
+            # print(graf[pocetak][graf[pocetak].index(node)])
             novi_put = pronadji_put(graf, node, kraj, put)
             if novi_put:
                 return novi_put
@@ -28,4 +28,4 @@ lopoci = {
 }
 
 print(len(pronadji_put(lopoci, pocetni_lopoc, posljednji_lopoc, []))-1)
-print(pronadji_put(lopoci, pocetni_lopoc, posljednji_lopoc, []))
+# print(pronadji_put(lopoci, pocetni_lopoc, posljednji_lopoc, []))
