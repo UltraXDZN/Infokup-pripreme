@@ -1,31 +1,22 @@
-pocetni_lopoc = int(input())
-posljednji_lopoc = int(input())
+lopoci = [[], [2, 6, 7], [1, 3], [2, 4], [3, 5], [4, 6], [5, 1], [1]]
 
 
-def pronadji_put(graf, pocetak, kraj, put=[]):
-    put += [pocetak]
-    if pocetak == kraj:
-        return put
-    if pocetak not in graf:
-        return None
-    for node in graf[pocetak]:
-        if node not in put:
-            # print(graf[pocetak][graf[pocetak].index(node)])
-            novi_put = pronadji_put(graf, node, kraj, put)
-            if novi_put:
-                return novi_put
-    return None
+def pronadji_najkraci_put(karta, todor_a, koraljka_b):
+    if todor_a == koraljka_b:
+        return 0
+    putevi = [[todor_a]]
+    while len(putevi) > 0:
+        put = putevi.pop(0)
+        cvor = put[-1]
+        susjedi = karta[cvor]
+        for susjed in susjedi:
+            if susjed not in put:
+                novi_put = put[:]
+                novi_put.append(susjed)
+                putevi.append(novi_put)
+                if susjed == koraljka_b:
+                    # print(f'Put: {" -> ".join(map(str, novi_put))}')
+                    return len(novi_put) - 1
 
 
-lopoci = {
-    1: [2, 6, 7],
-    2: [1, 3],
-    3: [2, 4],
-    4: [3, 5],
-    5: [4, 6],
-    6: [1, 6],
-    7: [1]
-}
-
-print(len(pronadji_put(lopoci, pocetni_lopoc, posljednji_lopoc, []))-1)
-# print(pronadji_put(lopoci, pocetni_lopoc, posljednji_lopoc, []))
+print(pronadji_najkraci_put(lopoci, int(input()), int(input())))
