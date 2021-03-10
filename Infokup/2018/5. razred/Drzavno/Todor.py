@@ -18,5 +18,6 @@ def pronadji_najkraci_put(karta, todor_a, koraljka_b):
                     # print(f'Put: {" -> ".join(map(str, novi_put))}')
                     return len(novi_put) - 1
 
-
 print(pronadji_najkraci_put(lopoci, int(input()), int(input())))
+
+#Svi primjeri rade!!!
