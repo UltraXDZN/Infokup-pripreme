@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f7e9056-a4f9-43f4-a966-e1a11af6fcb0" name="Default Changelist" comment="Rješen zadatak Selotejpet" />
+    <list default="true" id="5f7e9056-a4f9-43f4-a966-e1a11af6fcb0" name="Default Changelist" comment="Dodan Zadatak Lokve">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -278,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614551748717</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Dodan Zadatak Lokve">
+      <created>1616102738230</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1616102738230</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -303,6 +312,7 @@
     <MESSAGE value="Dodan zadatak MSV" />
     <MESSAGE value="Dodan zadatak Polica" />
     <MESSAGE value="Rješen zadatak Selotejpet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rješen zadatak Selotejpet" />
+    <MESSAGE value="Dodan Zadatak Lokve" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodan Zadatak Lokve" />
   </component>
 </project>
