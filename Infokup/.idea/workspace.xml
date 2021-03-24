@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f7e9056-a4f9-43f4-a966-e1a11af6fcb0" name="Default Changelist" comment="Dodan Zadatak Slijedi">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+    <list default="true" id="5f7e9056-a4f9-43f4-a966-e1a11af6fcb0" name="Default Changelist" comment="Polu-rješen zadatak Vrijeme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019/5. razred/Drzavno/Vrijeme.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019/5. razred/Drzavno/Vrijeme.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/5. razred/Drzavno/Slijedi.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019/5. razred/Drzavno/Slijedi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,12 +175,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.mladi" />
-      <item itemvalue="Python.London" />
       <item itemvalue="Python.Belot" />
-      <item itemvalue="Python.Zabe" />
+      <item itemvalue="Python.London" />
       <item itemvalue="Python.Selotejpet" />
       <item itemvalue="Python.Vrijeme" />
+      <item itemvalue="Python.Zabe" />
+      <item itemvalue="Python.mladi" />
     </list>
     <recent_temporary>
       <list>
@@ -296,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616280682738</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Polu-rješen zadatak Vrijeme">
+      <created>1616537428239</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1616537428239</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -323,6 +329,7 @@
     <MESSAGE value="Rješen zadatak Selotejpet" />
     <MESSAGE value="Dodan Zadatak Lokve" />
     <MESSAGE value="Dodan Zadatak Slijedi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodan Zadatak Slijedi" />
+    <MESSAGE value="Polu-rješen zadatak Vrijeme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Polu-rješen zadatak Vrijeme" />
   </component>
 </project>
