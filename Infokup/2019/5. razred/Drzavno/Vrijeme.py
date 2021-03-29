@@ -1,19 +1,31 @@
-zadano_vrijeme = "0" + input()
-if len(zadano_vrijeme) < 4:
-    zadano_vrijeme += "0"
+n = input()
+time = []
 
-opcije_vremena = []
+for i in range(len(n) + 1):
+    s = n[:i]
+    m = n[i:]
 
-for i in range(1, len(zadano_vrijeme)+1):
-    if int(zadano_vrijeme[:i]) <= 23 and int(zadano_vrijeme[i:i+2]) <= 59:
-        if "0" not in zadano_vrijeme[-2::-i]:
-            opcije_vremena.append((zadano_vrijeme[1:i], zadano_vrijeme[i:i+2]))
-
-print(opcije_vremena)
-
-for opcija in opcije_vremena:
-    if opcija is not None:
-        print(f"{opcija[0]}:{opcija[1]}")
+    if s == '':
+        hours = 0
+    elif int(s) < 24:
+        hours = int(s)
     else:
-        print("TLE")
+        continue
 
+    if m == '':
+        minutes = 0
+    elif int(m) < 60:
+        if str(int(m)) != m:
+            continue
+        minutes = int(m)
+    else:
+        continue
+
+    time.append(f'{hours}:{minutes}')
+
+if len(time) > 0:
+    time = list(set(time))
+    for t in time:
+        print(t)
+else:
+    print('TLE')
