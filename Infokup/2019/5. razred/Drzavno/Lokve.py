@@ -25,5 +25,5 @@ while br_stanutih_lokvi != 0:
             br_stanutih_lokvi += 1
             potenc_korak += 1
             break
-
+#Rješeno
 print(potenc_korak)
