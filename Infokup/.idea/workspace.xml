@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5f7e9056-a4f9-43f4-a966-e1a11af6fcb0" name="Default Changelist" comment="Rijesen Zadatak Lokve">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019/5. razred/Drzavno/Lokve.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019/5. razred/Drzavno/Lokve.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -344,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617136793522</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Update">
+      <created>1617227859142</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1617227859142</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -376,6 +382,7 @@
     <MESSAGE value="Polu-rijesen Zadatak Vrijeme" />
     <MESSAGE value="Rijesen Zadatak Vrijeme" />
     <MESSAGE value="Rijesen Zadatak Lokve" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rijesen Zadatak Lokve" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
 </project>
