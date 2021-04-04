@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f7e9056-a4f9-43f4-a966-e1a11af6fcb0" name="Default Changelist" comment="Riješen zadatak Slijedi">
+    <list default="true" id="5f7e9056-a4f9-43f4-a966-e1a11af6fcb0" name="Default Changelist" comment="Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2017/5. razred/Drzavno/Bojan.py" beforeDir="false" afterPath="$PROJECT_DIR$/2017/5. razred/Drzavno/Bojan.py" afterDir="false" />
     </list>
@@ -365,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617374436975</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Update">
+      <created>1617485051389</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1617485051389</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -397,8 +404,8 @@
     <MESSAGE value="Polu-rijesen Zadatak Vrijeme" />
     <MESSAGE value="Rijesen Zadatak Vrijeme" />
     <MESSAGE value="Rijesen Zadatak Lokve" />
-    <MESSAGE value="Update" />
     <MESSAGE value="Riješen zadatak Slijedi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Riješen zadatak Slijedi" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
 </project>

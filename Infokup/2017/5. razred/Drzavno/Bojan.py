@@ -1,1 +1,1 @@
-#Zapocet
+unos = int(input())
