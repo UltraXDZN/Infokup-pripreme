@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f7e9056-a4f9-43f4-a966-e1a11af6fcb0" name="Default Changelist" comment="Update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5f7e9056-a4f9-43f4-a966-e1a11af6fcb0" name="Default Changelist" comment="Update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,12 +172,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Lokve" />
-      <item itemvalue="Python.Selotejpet" />
-      <item itemvalue="Python.Slijedi" />
-      <item itemvalue="Python.Vrijeme" />
-      <item itemvalue="Python.Zabe" />
       <item itemvalue="Python.mladi" />
+      <item itemvalue="Python.Zabe" />
+      <item itemvalue="Python.Selotejpet" />
+      <item itemvalue="Python.Vrijeme" />
+      <item itemvalue="Python.Lokve" />
+      <item itemvalue="Python.Slijedi" />
     </list>
     <recent_temporary>
       <list>
@@ -378,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617573415977</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Update">
+      <created>1617657366104</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1617657366104</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
