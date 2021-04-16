@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f7e9056-a4f9-43f4-a966-e1a11af6fcb0" name="Default Changelist" comment="Unos radi - zadatak Bojan">
+    <list default="true" id="5f7e9056-a4f9-43f4-a966-e1a11af6fcb0" name="Default Changelist" comment="Selekcija radi - zadatak Bojan">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2017/5. razred/Drzavno/Bojan.py" beforeDir="false" afterPath="$PROJECT_DIR$/2017/5. razred/Drzavno/Bojan.py" afterDir="false" />
     </list>
@@ -20,8 +20,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1WvxJuSexhPbsfhpuaYsRFWbpPB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -400,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618436579728</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Selekcija radi - zadatak Bojan">
+      <created>1618510699299</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1618510699299</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -435,6 +447,7 @@
     <MESSAGE value="Riješen zadatak Slijedi" />
     <MESSAGE value="Update" />
     <MESSAGE value="Unos radi - zadatak Bojan" />
-    <option name="LAST_COMMIT_MESSAGE" value="Unos radi - zadatak Bojan" />
+    <MESSAGE value="Selekcija radi - zadatak Bojan" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selekcija radi - zadatak Bojan" />
   </component>
 </project>
