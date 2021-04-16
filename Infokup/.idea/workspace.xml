@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f7e9056-a4f9-43f4-a966-e1a11af6fcb0" name="Default Changelist" comment="Selekcija radi - zadatak Bojan">
+    <list default="true" id="5f7e9056-a4f9-43f4-a966-e1a11af6fcb0" name="Default Changelist" comment="Dio radi - zadatak Bojan">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2017/5. razred/Drzavno/Bojan.py" beforeDir="false" afterPath="$PROJECT_DIR$/2017/5. razred/Drzavno/Bojan.py" afterDir="false" />
     </list>
@@ -412,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618510699299</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Dio radi - zadatak Bojan">
+      <created>1618596867811</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1618596867811</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -448,6 +455,7 @@
     <MESSAGE value="Update" />
     <MESSAGE value="Unos radi - zadatak Bojan" />
     <MESSAGE value="Selekcija radi - zadatak Bojan" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selekcija radi - zadatak Bojan" />
+    <MESSAGE value="Dio radi - zadatak Bojan" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dio radi - zadatak Bojan" />
   </component>
 </project>
