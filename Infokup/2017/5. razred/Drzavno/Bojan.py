@@ -31,4 +31,4 @@ for korak in koraci:
             trenutna_lokacija += 1
         # print(f"--------------------------------------- {trenutna_boja}, {trenutna_lokacija}, {promijeni_smjer} kraj")
 print(*boja_na_zidu)
-#Update
+#Update2
