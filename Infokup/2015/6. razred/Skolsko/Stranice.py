@@ -3,9 +3,9 @@
 num = int(input())
 
 counter = 0
-i = 0
+i = 1
 while i <= num:
-    i += len(str(i))
     counter += 1
+    i += len(str(i))
 
 print(counter)
