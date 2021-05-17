@@ -5,7 +5,7 @@ neparni_ucenici = []
 
 for i in range(1, broj_ucenika+1):
     ocjena = int(input())
-    if ocjena % 2 == 0:
+    if i % 2 == 0:
         parni_ucenici.append(ocjena)
     else:
         neparni_ucenici.append(ocjena)
@@ -20,8 +20,8 @@ if prosjek_neparnih > prosjek_parnih:
 elif prosjek_parnih > prosjek_neparnih:
     rjesenje = "P"
 else:
-    rjesenje = "NP"
+    rjesenje = "PN"
 
-print(f"{prosjek_neparnih:.2f}")
-print(f"{prosjek_parnih:.2f}")
+print(f"{round(prosjek_parnih, 2)}")
+print(f"{round(prosjek_neparnih, 2)}")
 print(rjesenje)
