@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f7e9056-a4f9-43f4-a966-e1a11af6fcb0" name="Default Changelist" comment="Dodani zadaci">
-      <change afterPath="$PROJECT_DIR$/2015/6. razred/Zupanijsko/rub.py" afterDir="false" />
+    <list default="true" id="5f7e9056-a4f9-43f4-a966-e1a11af6fcb0" name="Default Changelist" comment="Rješen zadatak Rub">
+      <change afterPath="$PROJECT_DIR$/2015/6. razred/Zupanijsko/Puni.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,8 +53,8 @@
       <recent name="D:\JURAJ\Infokup pripreme 2021\2015\5. razred\Skolsko" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.rub">
-    <configuration name="Bojan" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Puni">
+    <configuration name="Puni" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Infokup pripreme 2021" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -62,11 +62,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2017/5. razred/Drzavno" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2015/6. razred/Zupanijsko" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2017/5. razred/Drzavno/Bojan.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2015/6. razred/Zupanijsko/Puni.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,19 +182,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.mladi" />
-      <item itemvalue="Python.Bojan" />
       <item itemvalue="Python.Stranice" />
       <item itemvalue="Python.ZadatakTest" />
       <item itemvalue="Python.Zabe" />
       <item itemvalue="Python.rub" />
+      <item itemvalue="Python.Puni" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Puni" />
         <item itemvalue="Python.rub" />
         <item itemvalue="Python.Stranice" />
         <item itemvalue="Python.Zabe" />
         <item itemvalue="Python.ZadatakTest" />
-        <item itemvalue="Python.Bojan" />
       </list>
     </recent_temporary>
   </component>
@@ -490,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621373886668</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Rješen zadatak Rub">
+      <created>1621545950464</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1621545950464</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -506,7 +513,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update Belot" />
     <MESSAGE value="Rijesen zadatak Belot" />
     <MESSAGE value="Rijesen zadatak Zabe" />
     <MESSAGE value="Update Selotejpet" />
@@ -531,6 +537,7 @@
     <MESSAGE value="Zadatak Test - Polovicno rjesen" />
     <MESSAGE value="Zadatak Test - Rješen" />
     <MESSAGE value="Dodani zadaci" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodani zadaci" />
+    <MESSAGE value="Rješen zadatak Rub" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rješen zadatak Rub" />
   </component>
 </project>
