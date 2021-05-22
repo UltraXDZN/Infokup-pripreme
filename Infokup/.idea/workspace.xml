@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f7e9056-a4f9-43f4-a966-e1a11af6fcb0" name="Default Changelist" comment="Rješen zadatak Rub">
-      <change afterPath="$PROJECT_DIR$/2015/6. razred/Zupanijsko/Puni.py" afterDir="false" />
+    <list default="true" id="5f7e9056-a4f9-43f4-a966-e1a11af6fcb0" name="Default Changelist" comment="Zadatak Puni">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2015/6. razred/Zupanijsko/Puni.py" beforeDir="false" afterPath="$PROJECT_DIR$/2015/6. razred/Zupanijsko/Puni.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -497,7 +497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621545950464</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Zadatak Puni">
+      <created>1621634220924</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1621634220924</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -513,7 +520,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Rijesen zadatak Belot" />
     <MESSAGE value="Rijesen zadatak Zabe" />
     <MESSAGE value="Update Selotejpet" />
     <MESSAGE value="Update Selotejpet (prvi dio radi)" />
@@ -538,6 +544,7 @@
     <MESSAGE value="Zadatak Test - Rješen" />
     <MESSAGE value="Dodani zadaci" />
     <MESSAGE value="Rješen zadatak Rub" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rješen zadatak Rub" />
+    <MESSAGE value="Zadatak Puni" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zadatak Puni" />
   </component>
 </project>
