@@ -33,7 +33,7 @@ def main():
     rjesenja = []  # Definicija skupa za pronadjene stihove.
 
     for i in range(broj_rijeci):
-        rjesenja.append(pronadji_rijec_u_stihu(int(input())))
+        rjesenja.append(pronadji_rijec_u_stihu(int(input()), pjesma))
 
     # Petlja koja pronalazi stihove na temelju korisnikovih unosa
     # te ih sprema u skup "pjesma".
@@ -43,10 +43,11 @@ def main():
 
 if __name__ == "__main__":
     """
-    Zadatak: Stih
+    Zadatak:
+        Stih
 
     Opis:
-    Mirkova pjesma ima n stihova. Napišite program koji odgovara na upite oblika: u kojem se stihu nalazi
+        Mirkova pjesma ima n stihova. Napišite program koji odgovara na upite oblika: u kojem se stihu nalazi
     i-ta riječ pjesme?
     """
     main()
