@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f7e9056-a4f9-43f4-a966-e1a11af6fcb0" name="Default Changelist" comment="Zadatak Stih - riješen">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020/3. i 4. razred/Stih.py" beforeDir="false" afterPath="$PROJECT_DIR$/2020/3. i 4. razred/Stih.py" afterDir="false" />
-    </list>
+    <list default="true" id="5f7e9056-a4f9-43f4-a966-e1a11af6fcb0" name="Default Changelist" comment="Zadatak Stih - update doc" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -532,7 +529,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634762815293</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Zadatak Stih - update doc">
+      <created>1634764407468</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1634764407468</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -548,7 +552,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dodan zadatak MSV" />
     <MESSAGE value="Dodan zadatak Polica" />
     <MESSAGE value="Rješen zadatak Selotejpet" />
     <MESSAGE value="Dodan Zadatak Lokve" />
@@ -573,6 +576,7 @@
     <MESSAGE value="Zadatak Puni - pola rješen" />
     <MESSAGE value="Zadatak Puni - riješen" />
     <MESSAGE value="Zadatak Stih - riješen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zadatak Stih - riješen" />
+    <MESSAGE value="Zadatak Stih - update doc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zadatak Stih - update doc" />
   </component>
 </project>
