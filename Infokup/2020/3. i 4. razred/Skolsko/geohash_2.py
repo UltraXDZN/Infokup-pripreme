@@ -1,48 +1,43 @@
-n = int(input())
-# polaz = int(input())
-# kraj = int(input())
+baza = int(input())
 
-size = 2 ** n
-geohash_tablica = [[0 for x in range(size)] for y in range(size)]
-print(size)
+dimenzije = 2 ** baza
+geohash_tablica = [[0 for x in range(dimenzije)] for y in range(dimenzije)]
 
-for i in range(size):  # y
-    iPom = i
-    for j in range(size):  # x
-        jPom = j
-        test = ""
-        print("---------")
-        offset_one = size / 2
-        offset_two = size / 2
-        divider = size / 2
-        divider_another = size / 2
-        for x in range(n):
-            print(offset_one)
-            if jPom < offset_one:
-                test += "0"
-                offset_one /= 2
+for redak in range(dimenzije):
+    for stupac in range(dimenzije):
+        # project full table in to one row and one colum
+        bit_string = ""
+
+        # start at center
+        offset_x = (dimenzije / 2)
+        offset_y = offset_x
+
+        divider_x = offset_x
+        divider_y = offset_y
+
+        for value in range(baza):
+
+            if stupac < offset_y:
+                bit_string += '0'
+                divider_y /= 2
+                offset_y -= divider_y  # (offset_y / 2)
             else:
-                test += "1"
-                offset_one += divider
-                divider /= 2
-            if iPom < offset_two:
-                test += "0"
-                offset_two /= 2
+                bit_string += '1'
+                divider_y /= 2
+                offset_y += divider_y  # (offset_y / 2)
+
+            if redak < offset_x:
+                bit_string += '0'
+                divider_x /= 2
+                offset_x -= divider_x  # (offset_x / 2)
             else:
-                test += "1"
-                offset_two += divider_another
-                divider_another /= 2
-            print(test)
-            # if iPom > (2 ** n // 2):
-            #     iPom /= 2  ##ovo promijeniti
-            # if jPom > (2 ** n // 2):
-            #     jPom /= 2  ##ovo promijeniti
+                bit_string += '1'
+                divider_x /= 2
+                offset_x += divider_x  # (offset_x / 2)
 
-            if (x + 1) == n:
-                print(test)
-                test2 = int(test, 2)
-                geohash_tablica[i][j] = test2
-
+            if (value + 1) == baza:
+                bit_to_int = int(bit_string, 2)
+                geohash_tablica[(dimenzije - 1) - redak][stupac] = bit_to_int
 
 for redak in geohash_tablica:
     print(*redak)
