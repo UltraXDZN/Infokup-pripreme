@@ -72,6 +72,18 @@ print()
 print(f"Pocetna lokacija: {koordinate[0]}")
 print(f"Zavrsna lokacija: {koordinate[1]}")
 
+
+cliped_geohash_tablica = []
+
+for i in range(koordinate[1][1], koordinate[0][1]+1):
+    row = []
+    for j in range(koordinate[1][0], koordinate[0][0]+1):
+        row.append(geohash_tablica[i][j])
+    cliped_geohash_tablica.append(row)
+
+ispisi_tablicu(cliped_geohash_tablica)
+
+
 def min_path_sum(tablica):
     if dimenzije == 0:
         return 0
