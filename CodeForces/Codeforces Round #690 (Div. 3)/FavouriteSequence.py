@@ -6,15 +6,19 @@ for i in range(num_of_tests):
     sequences.append([int(x) for x in input().split()])
 
 disassemble = []
+
 for i in range(num_of_tests):
     original_squence = []
-    for j in range(sequences_lens[i]):
+    j = 0
+
+    while len(sequences[i]) > 0:
         if j % 2 == 0:
-            original_squence.append(sequences[i][j])
+            original_squence.append(sequences[i][0])
+            sequences[i].pop(0)
         else:
-            original_squence.append(sequences[i][-(j+1)])
-        print(original_squence)
-    print("-----------------")
+            original_squence.append(sequences[i][-1])
+            sequences[i].pop(-1)
+        j += 1
     disassemble.append(original_squence)
 
 for i in range(len(disassemble)):
