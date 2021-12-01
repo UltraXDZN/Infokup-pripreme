@@ -6,6 +6,7 @@ This repository includes solutions to competitive programming challenges/problem
 | Number  | Competition / Site | Start Date |
 | ------------- | ------------- | ------------- |
 | 1.  | [Infokup](https://informatika.azoo.hr/) |  Dec 27th, 2020 |
-| 2.  | [HONI](https://hsin.hr/honi/) | Nov 10th, 2021
-| 3.  | [Codeforces](https://codeforces.com/profile/UltraXDZN) | Nov 14th, 2021
+| 2.  | [HONI](https://hsin.hr/honi/) | Nov 10th, 2021 |
+| 3.  | [Codeforces](https://codeforces.com/profile/UltraXDZN) | Nov 14th, 2021 |
+| 4.  | [Advent Of Code](https://adventofcode.com/) | Dec 1st, 2021 |
 
