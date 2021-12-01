@@ -1,6 +1,6 @@
-###Day one:
+### Day one:
 
-##Sonar Sweep - Part One
+## Sonar Sweep - Part One
 
 
 In this assignment, it was required to create an infinite loop that is running until the end of user input.

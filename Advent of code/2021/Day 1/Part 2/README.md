@@ -1,6 +1,6 @@
-###Day one:
+### Day one:
 
-##Sonar Sweep - Part Two
+## Sonar Sweep - Part Two
 
 Most of this code is the same as the code for the first part. The only different parts are the loops.
 
