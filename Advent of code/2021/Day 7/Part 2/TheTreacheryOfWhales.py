@@ -13,9 +13,6 @@ for pos in horizontal_pos:
     fuel_needed = []
     for crab in horizontal_pos:
         fuel_needed.append(calc_sum(abs(crab - pos)))
-        print(crab, pos, calc_sum(abs(crab - pos)))
-    print(sum(fuel_needed))
-    print()
     align.append(sum(fuel_needed))
 
 print(min(align))
