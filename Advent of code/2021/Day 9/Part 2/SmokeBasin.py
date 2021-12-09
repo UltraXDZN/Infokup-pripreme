@@ -11,18 +11,38 @@ def bfs(arr, row, col, val):
     start = arr[row][col]
     queue = [(row, col)]
     visited = set()
-    while len(queue) > 0:
+    has_changed = 0
+    while queue:
         row, col = queue.pop()
         visited.add((row, col))
         arr[row][col] = val
+        has_changed += 1
+        # print(neighbours(arr, row, col, start))
         for row, col in neighbours(arr, row, col, start):
             if (row, col) not in visited:
-                visited.add((row, col))
+                queue.append((row, col))
     return arr
 
 
 def make_outline(arr):
     return [[9] * (len(arr[0]) + 1)] + [[9] + r + [9] for r in arr] + [[9] * (len(arr[0]) + 1)]
+
+
+def reset_map(arr):
+    for i in range(len(arr)):
+        for j in range(len(arr[i])):
+            if arr[i][j] == 10:
+                arr[i][j] = 1
+    return arr
+
+
+def count_tens(arr):
+    count = 0
+    for i in range(len(arr)):
+        for j in range(len(arr[i])):
+            if arr[i][j] == 10:
+                count += 1
+    return count
 
 
 height_map = []
@@ -45,17 +65,13 @@ count = 0
 for i in range(1, len(height_map) - 1):
     for j in range(1, len(height_map[i]) - 1):
         if height_map[i][j] != 9:
-            x = bfs(height_map, i, j, 10)
-            for num in x:
-                print(num)
-            print(len(x))
+            height_map = bfs(height_map, i, j, 10)
+            print(count_tens(height_map))
+            for n in height_map:
+                print(n)
+            basins.append(count_tens(height_map))
+            height_map = reset_map(height_map)
             print()
-            count += 1
-        else:
-            if count > 0:
-                basins.append(count)
-            count = 0
-            continue
 
-print(basins)
+print(sorted(basins))
 print(height_sum)
