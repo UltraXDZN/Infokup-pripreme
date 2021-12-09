@@ -13,7 +13,7 @@ while True:
         for num in nums:
             try:
                 sdn[len(num)] += 1
-            except:
+            except KeyError:
                 continue
     except ValueError:
         break

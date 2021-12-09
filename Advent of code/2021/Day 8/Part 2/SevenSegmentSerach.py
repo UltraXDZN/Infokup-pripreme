@@ -21,10 +21,10 @@ zbroj = 0
 # }
 
 default_sdn = {
-    2: "cf",
-    4: "bcdf",
-    3: "acf",
-    7: "abcdefg"
+    1: "cf", # 1
+    4: "bcdf", # 4
+    7: "acf", # 7
+    8: "abcdefg" # 8
 }
 while True:
     try:
@@ -34,18 +34,19 @@ while True:
         nums = nums.split()
         for num in ssd:
             for k in sdn.keys():
-                if len(num) == k:
+                if len(num) == len(sdn[k]):
                     sdn[k] = num
                     break
-
+        print(sdn)
         cur_nums = []
         for k in sdn.keys():
             for j in range(4):
                 if len(nums[j]) == 6:
-                    if len(compare(sdn[4], nums[j])) == 4:
+                    print(compare(sdn[k], nums[j]), len(compare(sdn[k], nums[j])), sdn[k], nums[j], sep="   ")
+                    if len(compare(sdn[k], nums[j])) == 4:
                         cur_nums.append("9")
                         break
-                    elif len(compare(sdn[7], nums[j])) == 3:
+                    elif len(compare(sdn[k], nums[j])) == 3:
                         cur_nums.append("0")
                         break
                     else:
@@ -53,10 +54,11 @@ while True:
                         break
 
                 elif len(nums[j]) == 5:
-                    if len(compare(sdn[7], nums[j])) == 3:
+                    print(compare(sdn[k], nums[j]), len(compare(sdn[k], nums[j])), sdn[k], nums[j], sep="   ")
+                    if len(compare(sdn[k], nums[j])) == 3:
                         cur_nums.append("3")
                         break
-                    elif len(compare(sdn[4], nums[j])) == 3:
+                    elif len(compare(sdn[k], nums[j])) == 2:
                         cur_nums.append("5")
                         break
                     else:
