@@ -45,6 +45,14 @@ def count_tens(arr):
     return count
 
 
+def check_ones(bin_arr, arr):
+    for i in range(len(bin_arr)):
+        for j in range(len(bin_arr[i])):
+            if arr[i][j] == 10:
+                bin_arr[i][j] = 1
+    return bin_arr
+
+
 height_map = []
 while True:
     cur_input = input()
@@ -55,6 +63,8 @@ while True:
 
 height_map = make_outline([[int(height_map[i][j]) for j in range(len(height_map[i]))] for i in range(len(height_map))])
 height_sum = 0
+binary_map = [[0 for j in range(len(height_map[i]))] for i in range(len(height_map))]
+
 for i in range(len(height_map)):
     for j in range(len(height_map[i])):
         if height_map[i][j] != 9:
@@ -64,14 +74,11 @@ basins = []
 count = 0
 for i in range(1, len(height_map) - 1):
     for j in range(1, len(height_map[i]) - 1):
-        if height_map[i][j] != 9:
+        if binary_map[i][j] == 0 and height_map[i][j] != 9:
             height_map = bfs(height_map, i, j, 10)
-            print(count_tens(height_map))
-            for n in height_map:
-                print(n)
             basins.append(count_tens(height_map))
+            binary_map = check_ones(binary_map, height_map)
             height_map = reset_map(height_map)
-            print()
 
-print(sorted(basins))
-print(height_sum)
+basins = sorted(basins)
+print(basins[-1] * basins[-2] * basins[-3])
