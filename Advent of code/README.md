@@ -13,3 +13,5 @@ Solutions for my **Advent of code** event programming challenge.
 | 2021 | 7 | [The Treachery Of Whales](https://adventofcode.com/2021/day/7)
 | 2021 | 8 | [Seven Segment Search](https://adventofcode.com/2021/day/8)
 | 2021 | 9 | [Smoke Basin](https://adventofcode.com/2021/day/9)
+| 2021 | 10 | [Syntax Scoring](https://adventofcode.com/2021/day/10)
+| 2021 | 11 | [Dumbo Octopus](https://adventofcode.com/2021/day/11)
