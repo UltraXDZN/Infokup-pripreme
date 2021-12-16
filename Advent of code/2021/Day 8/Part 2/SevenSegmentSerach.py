@@ -1,72 +1,37 @@
-def compare(num1, num2):
-    num1, num2 = str(num1), str(num2)
-    num_of_same = []
-    for i in range(len(num1)):
-        if num1[i] in num2 and num1[i] not in num_of_same:
-            num_of_same.append(num1[i])
-    return num_of_same
-
-zbroj = 0
-# default_sdn = {
-#     0: "abcefg",
-#     1: "cf",
-#     2: "acdeg",
-#     3: "acdfg",
-#     4: "bcdf",
-#     5: "abdfg",
-#     6: "abdefg",
-#     7: "acf",
-#     8: "abcdefg",
-#     9: "abcdfg",
-# }
-
-default_sdn = {
-    1: "cf", # 1
-    4: "bcdf", # 4
-    7: "acf", # 7
-    8: "abcdefg" # 8
-}
+total = 0
 while True:
     try:
-        sdn = default_sdn.copy()
+        cur_sum = 0
         ssd, nums = input().split("|")
-        ssd = ssd.split()
-        nums = nums.split()
-        for num in ssd:
-            for k in sdn.keys():
-                if len(num) == len(sdn[k]):
-                    sdn[k] = num
-                    break
-        print(sdn)
-        cur_nums = []
-        for k in sdn.keys():
-            for j in range(4):
-                if len(nums[j]) == 6:
-                    print(compare(sdn[k], nums[j]), len(compare(sdn[k], nums[j])), sdn[k], nums[j], sep="   ")
-                    if len(compare(sdn[k], nums[j])) == 4:
-                        cur_nums.append("9")
-                        break
-                    elif len(compare(sdn[k], nums[j])) == 3:
-                        cur_nums.append("0")
-                        break
-                    else:
-                        cur_nums.append("5")
-                        break
+        nums = [''.join(sorted(x)) for x in nums.split()]
+        digits = {''.join(sorted(part)) for part in {*ssd.split(), *nums}}
+        lenght_6 = {x for x in digits if len(x) == 6}
+        lenght_5 = {x for x in digits if len(x) == 5}
 
-                elif len(nums[j]) == 5:
-                    print(compare(sdn[k], nums[j]), len(compare(sdn[k], nums[j])), sdn[k], nums[j], sep="   ")
-                    if len(compare(sdn[k], nums[j])) == 3:
-                        cur_nums.append("3")
-                        break
-                    elif len(compare(sdn[k], nums[j])) == 2:
-                        cur_nums.append("5")
-                        break
-                    else:
-                        cur_nums.append("2")
-                        break
+        num_to_s = {1: tuple((x for x in digits if len(x) == 2))[0], 7: tuple((x for x in digits if len(x) == 3))[0],
+                    4: tuple((x for x in digits if len(x) == 4))[0], 8: tuple((x for x in digits if len(x) == 7))[0],
+                    }
+        len6 = {6: tuple((x for x in lenght_6 if len(set(x) & set(num_to_s[1])) == 1))[0],
+                9: tuple((x for x in lenght_6 if len(set(x) & set(num_to_s[4])) == 4))[0],
+                }
 
-        print("".join(cur_nums))
+        len5 = {5: tuple((x for x in lenght_5 if len(set(x) & set(len6[6])) == 5))[0],
+                3: tuple((x for x in lenght_5 if len(set(x) & set(num_to_s[1])) == 2))[0],
+                }
+
+        num_to_s.update(len5)
+        num_to_s.update(len6)
+
+        num_to_s[0], = lenght_6 - {num_to_s[6], num_to_s[9]}
+        num_to_s[2], = lenght_5 - {num_to_s[5], num_to_s[3]}
+
+        s_to_num = {v: k for k, v in num_to_s.items()}
+
+        cur_sum += sum(10 ** (3 - i) * s_to_num[nums[i]] for i in range(4))
+
+        total += cur_sum
+
     except ValueError:
         break
 
-print(zbroj)
+print(total)
