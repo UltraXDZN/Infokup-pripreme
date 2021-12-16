@@ -3,79 +3,43 @@ def print_list(arr):
         print(*row, sep="")
 
 
-x_ins = []
-y_ins = []
+points = set()
 while True:
     try:
-        j, y = map(int, input().split(","))
-        x_ins.append(j)
-        y_ins.append(y)
+        x, y = map(int, input().split(","))
+        points.add((int(x), int(y)))
     except ValueError:
         break
 
-type_f = ""
-fold = input()
-if "x=" in fold:
-    type_f = "X"
-    fold = int(fold.replace("fold along x=", ""))
-elif "y=" in fold:
-    type_f = "Y"
-    fold = int(fold.replace("fold along y=", ""))
+has_printed_p1 = False
+while True:
 
-print(fold)
-print(len(x_ins) + len(y_ins))
-table = [["." for j in range(max(x_ins) + 1)] for i in range(max(y_ins) + 1)]
+    fold = input()
+    if "x=" in fold:
 
-for i in range(len(x_ins)):
-    for y in range(y_ins[i] + 1):
-        for j in range(x_ins[i] + 1):
-            if y == y_ins[i] and j == x_ins[i]:
-                table[y][j] = "#"
+        fold = int(fold.replace("fold along x=", ""))
+        points = {([fold - (x - fold), x][x < fold], y) for x, y in points}
+    elif "y=" in fold:
 
-# print(table)
-table_final = table
+        fold = int(fold.replace("fold along y=", ""))
+        points = {(x, [fold - (y - fold), y][y < fold]) for x, y in points}
+    else:
+        break
+    if not has_printed_p1:
+        print(f"Part 1: {len(points)}")
+        has_printed_p1 = True
 
-# for i in range(len(fold_y)):
-if type_f == "Y":
-    print("Y")
-    table.insert(fold, ["-"] * int(len(x_ins) / 2 + 2))
-    table_final = table[:fold]
-    table_2 = table[fold + 1:]
-    for i in range(len(table_final)):
-        for j in range(len(table_final[i])):
-            if table_final[i][j] == "." and table_2[-(i + 1)][j] == "#":
-                table_final[i][j] = "#"
-    table = table_final
+x_s, y_s = zip(*points)
 
+table = [[" " for j in range(max(x_s) + 1)] for i in range(max(y_s) + 1)]
 
-else:
-    print("X")
-    print(fold)
-    for i in range(len(table)):
-        table[i][fold] = "|"
+for i in range(len(x_s)):
+    for y in range(y_s[i] + 1):
+        for x in range(x_s[i] + 1):
+            if y == y_s[i] and x == x_s[i]:
+                table[y][x] = "#"
 
-    table_final = []
-    table_2 = []
-
-    is_reversed_left = [False, True][max(x_ins) + 1 - fold > (max(x_ins) + 1) // 2]
-    val = abs((len(table[0]) - fold) - (len(table[0])) // 2)
-    print(val)
-    for i in range(len(table)):
-        table_final.append([table[i][:fold], ["."] * abs(val) + table[i][:fold]][not is_reversed_left])
-        table_2.append([["."] * abs(val) + table[i][:fold], table[i][fold + 1:][::-1]][is_reversed_left])
-        # print(table_1[i], table_2[i])
-
-    for i in range(len(table_final)):
-        for j in range(len(table_final[i])):
-            if table_final[i][j] == "." and table_2[i][j] == "#":
-                table_final[i][j] = "#"
-    # table = table_1
-
-count_hashes = 0
-for i in range(len(table_final)):
-    for j in range(len(table_final[i])):
-        count_hashes += [0, 1][table_final[i][j] == "#"]
 
 print()
-print_list(table_final)
-print(count_hashes)
+print("Part 2:")
+print_list(table)
