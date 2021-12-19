@@ -6,7 +6,6 @@ def align_coords(coord):
                 continue
             yield coord[0] + x, coord[1] + y
 
-
 x = 10
 octopuses = "\n".join([input() for i in range(x)])
 
@@ -16,6 +15,7 @@ for y, line in enumerate(octopuses.split()):
         coordinates[(int(x), int(y))] = int(val)
 
 flashes = 0
+
 for _ in range(100):
     flash = []
     for k, v in coordinates.items():
