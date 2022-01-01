@@ -1,21 +1,23 @@
+def replace_bool(list_a, index, p_list): list_a[p_list[index]] = True; return list_a
+
+
 def solve():
     n = int(input())
-    a = [int(x) for x in input().split()]
+    main = [int(x) for x in input().split()]
+    a, bigger = [False] * (n + 1), []
+    [replace_bool(a, i, main) if main[i] <= n and a[main[i]] is False else bigger.append(main[i]) for i in range(n)]
+    bigger = sorted(bigger)
     counter = 0
-    final = set()
-    for i in range(n):
-        if a[i] == (i + 1) or a[i] == n and a[i] not in final:
-            final.add(a[i])
-            continue
-        x = abs(a[i] - [i, i + 1][a[i] == (a[i] - i)])
-        if (a[i] % x) == [i, i + 1][a[i] == (a[i] - i)]:
-            final.add(a[i] % x)
-            counter += 1
-        elif (i + 1) > a[i]:
-            continue
-        else:
-            return -1
+    for i in range(1, n + 1):
+        if not a[i]:
+            if ((bigger[counter] - 1) // 2) >= i:
+                counter += 1
+            else:
+                return -1
     return counter
 
 
-print(*[solve() for _ in range(int(input()))], sep="\n")
+try:
+    print(*[solve() for _ in range(int(input()))], sep="\n")
+except Exception as error:
+    print(error)
