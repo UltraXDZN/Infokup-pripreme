@@ -20,12 +20,6 @@ def check_pos(arr, k1, v1, k2, v2):
                 continue
             ct += 1
 
-    # v1_hash = [(x[1], x[0]) for x in v1 if arr[x[0]][x[1]] == "#"]
-    # v2_hash = [(x[1], x[0]) for x in v2 if arr[x[0]][x[1]] == "#"]
-    # print(k1, v1_hash)
-    # print(k2, v2_hash)
-    # print()
-    # if k1 in v2 and k2 in v1:
     if ct == 1:
         return True
     return False
@@ -40,7 +34,6 @@ a = outline([list(input()) for i in range(r)])
 pos = {}
 for y in range(r):
     for x in range(s):
-        # print(a[y][x], y, x)
         if a[y][x] == "#":
             pos[x, y] = neighbours(a, y, x)
 
