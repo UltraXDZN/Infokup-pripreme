@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5acf86a0-e4ca-4530-802d-5d1ad51a82a7" name="Default Changelist" comment="Codeforces Update">
+      <change afterPath="$PROJECT_DIR$/Bonus Algorithms/aion_image_help.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeForces/Codeforces Round #764 (Div. 3)/DivisionByTwoAndPermutation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeForces/Codeforces Round #776 (Div. 3)/WeightOfTheSystemOfNestedSegments.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeForces/CrossColoring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeForces/Educational Codeforces Round 124 (Div. 2)/NearestExcludedPoints.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeForces/Minority.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeForces/PaintTheArray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeForces/SecretSanta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeForces/SystemOfEquations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HONI/2021/KOLO 4/Autici.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HONI/2021/KOLO 4/Autobus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HONI/2021/KOLO 4/Milja.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HONI/2021/KOLO 5/Dijamant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HONI/2021/KOLO 5/Hrvatski.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HONI/2021/KOLO 5/Kemija.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HONI/2021/KOLO 5/Postolje.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infokup/2015/1. i 2. Razred/Piton.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infokup/2021/3. i 4. Srednje/Zupanijsko/Slaganje.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infokup/2022/Zupanijsko/Boje.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infokup/2022/Zupanijsko/Znamenke.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infokup/2021/3. i 4. Srednje/Filip.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infokup/2021/3. i 4. Srednje/Kruno.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infokup/2021/3. i 4. Srednje/Skok.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="20sVqeCHkmHQICPKGUOJX42hmiD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Advent of code/2021/Day 13" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Infokup Pripreme\Advent of code\2021\Day 13" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Infokup Pripreme\Advent of code\2021\Day 11\Part 2" />
+      <recent name="E:\Infokup Pripreme\Advent of code\2021\Day 7\Part 1" />
+      <recent name="E:\Infokup Pripreme\Advent of code\2021\Day 3\Part 2" />
+      <recent name="E:\Infokup Pripreme\Advent of code\2021\Day 3\Part 1" />
+      <recent name="E:\Infokup Pripreme\Advent of code" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.SystemOfEquations">
+    <configuration name="EveryoneLovesToSleep" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Infokup Pripreme" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodeForces/Codeforces Round #811 (Div. 3)" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodeForces/Codeforces Round #811 (Div. 3)/EveryoneLovesToSleep.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PerfectPermutation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Infokup Pripreme" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodeForces" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodeForces/PerfectPermutation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RemovePrefix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Infokup Pripreme" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodeForces/Codeforces Round #811 (Div. 3)" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodeForces/Codeforces Round #811 (Div. 3)/RemovePrefix.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SystemOfEquations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Infokup Pripreme" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodeForces" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodeForces/SystemOfEquations.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="statusChanger" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Infokup Pripreme" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Old Disc/PythonBot/RichPresence" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Old Disc/PythonBot/RichPresence/statusChanger.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.SystemOfEquations" />
+        <item itemvalue="Python.PerfectPermutation" />
+        <item itemvalue="Python.EveryoneLovesToSleep" />
+        <item itemvalue="Python.RemovePrefix" />
+        <item itemvalue="Python.statusChanger" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5acf86a0-e4ca-4530-802d-5d1ad51a82a7" name="Default Changelist" comment="" />
+      <created>1636833475621</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636833475621</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Codeforces update">
+      <created>1639166014214</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1639166014214</updated>
+    </task>
+    <task id="LOCAL-00067" summary="HONI Kolo 3">
+      <created>1639259261569</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1639259261569</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Codeforces Update">
+      <created>1639262563611</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1639262563611</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Codeforces Update">
+      <created>1639349261189</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1639349261189</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Advent of Code,Day 13">
+      <created>1639436135993</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1639436135994</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Advent of Code,Day 13">
+      <created>1639669955727</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1639669955727</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Advent of Code, Day 8">
+      <created>1639693029390</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1639693029390</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Advent of Code, Day 11">
+      <created>1639871749116</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1639871749117</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Codeforces Update">
+      <created>1639871763350</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1639871763350</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Advent of Code, Day 11">
+      <created>1639875793050</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1639875793050</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Codeforces Update">
+      <created>1639949802257</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1639949802257</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Codeforces Update">
+      <created>1640211228618</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1640211228619</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Codeforces Update">
+      <created>1640304370158</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1640304370159</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Codeforces Update">
+      <created>1640472787933</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1640472787933</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Codeforces Update">
+      <created>1640544179907</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1640544179907</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Codeforces Update">
+      <created>1640644260644</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1640644260644</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Codeforces Update">
+      <created>1640732023522</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1640732023523</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Codeforces Update">
+      <created>1640902073469</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1640902073469</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Codeforces Update">
+      <created>1640904197670</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1640904197670</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Codeforces Update">
+      <created>1640995239333</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1640995239333</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Codeforces Update">
+      <created>1641075531525</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1641075531526</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Codeforces Update">
+      <created>1641249171909</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1641249171909</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Codeforces Update">
+      <created>1641591792075</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1641591792075</updated>
+    </task>
+    <task id="LOCAL-00089" summary="Codeforces Update">
+      <created>1641849582796</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1641849582796</updated>
+    </task>
+    <task id="LOCAL-00090" summary="Infokup Skolsko 2021, 3. i 4. razred - Kruno">
+      <created>1641938284263</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1641938284264</updated>
+    </task>
+    <task id="LOCAL-00091" summary="Infokup Skolsko 2021, 3. i 4. razred - Kruno">
+      <created>1641938305750</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1641938305750</updated>
+    </task>
+    <task id="LOCAL-00092" summary="Infokup Skolsko 2021, 3. i 4. razred - Skok">
+      <created>1642623546217</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1642623546217</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Infokup Skolsko 2021, 3. i 4. razred - Filip">
+      <created>1642702011129</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1642702011130</updated>
+    </task>
+    <task id="LOCAL-00094" summary="Infokup Skolsko 2015, 1. i 2. razred - Flash, Joker">
+      <created>1643202132467</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1643202132467</updated>
+    </task>
+    <task id="LOCAL-00095" summary="Infokup Skolsko 2019, 3. i 4. razred - Pravilan">
+      <created>1643909234705</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1643909234706</updated>
+    </task>
+    <task id="LOCAL-00096" summary="Codeforces Update">
+      <created>1645131169535</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1645131169536</updated>
+    </task>
+    <task id="LOCAL-00097" summary="Codeforces Update">
+      <created>1645135402221</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1645135402221</updated>
+    </task>
+    <task id="LOCAL-00098" summary="Codeforces Update">
+      <created>1645215492950</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1645215492951</updated>
+    </task>
+    <task id="LOCAL-00099" summary="Codeforces Update">
+      <created>1645230385471</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1645230385471</updated>
+    </task>
+    <task id="LOCAL-00100" summary="Codeforces Update">
+      <created>1645304761454</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1645304761454</updated>
+    </task>
+    <task id="LOCAL-00101" summary="Codeforces Update">
+      <created>1645387068492</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1645387068493</updated>
+    </task>
+    <task id="LOCAL-00102" summary="Codeforces Update">
+      <created>1645558934829</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1645558934829</updated>
+    </task>
+    <task id="LOCAL-00103" summary="Codeforces Update">
+      <created>1646331500919</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1646331500919</updated>
+    </task>
+    <task id="LOCAL-00104" summary="Codeforces Update">
+      <created>1646418009274</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1646418009274</updated>
+    </task>
+    <task id="LOCAL-00105" summary="Codeforces Update">
+      <created>1646588729905</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1646588729905</updated>
+    </task>
+    <task id="LOCAL-00106" summary="Codeforces Update">
+      <created>1646691532160</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1646691532160</updated>
+    </task>
+    <task id="LOCAL-00107" summary="Codeforces Update">
+      <created>1646774481904</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1646774481904</updated>
+    </task>
+    <task id="LOCAL-00108" summary="Codeforces Update">
+      <created>1646855973913</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1646855973913</updated>
+    </task>
+    <task id="LOCAL-00109" summary="Codeforces Update">
+      <created>1646879583549</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1646879583549</updated>
+    </task>
+    <task id="LOCAL-00110" summary="Codeforces Update">
+      <created>1646937643551</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1646937643552</updated>
+    </task>
+    <task id="LOCAL-00111" summary="Infokup 3. i 4. razred - 2014. Prozori">
+      <created>1646951318679</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1646951318679</updated>
+    </task>
+    <task id="LOCAL-00112" summary="Codeforces Update">
+      <created>1658784598035</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1658784598035</updated>
+    </task>
+    <task id="LOCAL-00113" summary="Codeforces Update">
+      <created>1659397571202</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1659397571203</updated>
+    </task>
+    <task id="LOCAL-00114" summary="Codeforces Update">
+      <created>1659487731439</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1659487731439</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="CodeForce excercises" />
+    <MESSAGE value="Readme update" />
+    <MESSAGE value="Advent of Code Day 1" />
+    <MESSAGE value="Advent of code Day 2" />
+    <MESSAGE value="Advent of code Day 3" />
+    <MESSAGE value="Advent of code README" />
+    <MESSAGE value="Advent of Code, Day 4" />
+    <MESSAGE value="Advent of Code, Day 5" />
+    <MESSAGE value="Advent of Code, Day 6" />
+    <MESSAGE value="Advent of Code, Day 7" />
+    <MESSAGE value="Advent of Code, Day 9" />
+    <MESSAGE value="Advent of Code, Day 10" />
+    <MESSAGE value="Codeforces update" />
+    <MESSAGE value="HONI Kolo 3" />
+    <MESSAGE value="Advent of Code,Day 13" />
+    <MESSAGE value="Advent of Code, Day 8" />
+    <MESSAGE value="Advent of Code, Day 11" />
+    <MESSAGE value="Infokup Skolsko 2021, 3. i 4. razred - Kruno" />
+    <MESSAGE value="Infokup Skolsko 2021, 3. i 4. razred - Skok" />
+    <MESSAGE value="Infokup Skolsko 2021, 3. i 4. razred - Filip" />
+    <MESSAGE value="Infokup Skolsko 2015, 1. i 2. razred - Flash, Joker" />
+    <MESSAGE value="Infokup Skolsko 2019, 3. i 4. razred - Pravilan" />
+    <MESSAGE value="Infokup 3. i 4. razred - 2014. Prozori" />
+    <MESSAGE value="Codeforces Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Codeforces Update" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
